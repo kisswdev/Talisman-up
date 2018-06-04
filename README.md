@@ -68,6 +68,8 @@ sudo dpkg -i *.deb
 
 don't forget to put your game_server.evp in game folder i cant upload coz github dont support file larger then 25.MB
 
+DOWNLOAD game_server.evp > https://mirrorace.com/m/1r7wh
+
 and the last step to start server
 
 then
