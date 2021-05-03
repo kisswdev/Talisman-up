@@ -23,6 +23,11 @@ this will ask for set Database Password So Make Strong Password
 
 first of all
 
+apt-get install sudo
+apt-get install lib32stdc++6
+sudo apt-get install libstdc++6
+
+
 
 sudo get-install unzip
 
