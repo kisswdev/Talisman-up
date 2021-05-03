@@ -1,10 +1,15 @@
 # Talisman-up
-Talsiman - server files
-talisman online clean server files
+Talisman - server files by kIsSwdev
+Talisman online clean server files
 
-And download ssh secure shell (this supprt file transfer too ) from http://www.wm.edu/offices/it/services/software/licensedsoftware/webeditingsftp/sshsecureshell/index.php William & Mary - SSH Secure Shell Client
+And download ssh secure shell (this supprt file transfer too ) from https://winscp.net/eng/index.php  SSH Secure Shell Client
 
-Get Ubuntu 14.04 32 bit then follw this instructions
+Putty : https://www.chiark.greenend.org.uk/~sgtatham/putty/
+
+Get Ubuntu 14.04 32 bit then follw this instructions ( TESTED BY ME WORKING )
+Get Ubuntu 14.04 64 bit then follw this instructions ( TESTED BY ME WORKING )
+Get Ubuntu 16.04 64 bit then follw this instructions ( TESTED BY ME WORKING )
+Get Ubuntu 18.04 64 bit then follw this instructions ( NOT TESTED )
 
 Here you get details to connect your vps details ip and password so use secure shell to connect vps using ip username is root and password
 
@@ -18,13 +23,22 @@ this will ask for set Database Password So Make Strong Password
 
 first of all
 
-sudo apt-get install git -y
 
-git clone https://github.com/tdarkscorpion/NewData.git
+sudo get-install unzip
+
+download files from here 
+wget "https://store8.gofile.io/download/iLmli0/efa460f78797eab7446831e855551717/talismansvr.zip"
+
+extract parts : 
+
+unzip talismansvr.zip
+
 
 then
 
-cd NewData && mv * ../
+
+Open WINSCP EDIT FILES:
+
 
 cd
 
@@ -32,43 +46,40 @@ Open All.INI files from all folders and replace 192.168.52.128 this ip to your i
 
 then open db folder and file name db_server_user.ini and replace 22021982 to your sql database password
 
-sudo apt-get install p7zip-full -y
+photo 1:
+https://i.ibb.co/vZZ7KRM/Capture.png
 
-cd game && 7z x *.7z
+photo 2:
+https://i.ibb.co/gSgS2DD/Capture2.png
+
 
 cd
 
 then give execute permission to
 
-db -> db_server and guard login -> login_server and guard game -> game_server and guard
+chmod -R 777 /root/*
 
-sudo chmod +x db/db_server
-
-sudo chmod 777 db/db_server
-
-sudo chmod +x login/login_server
-
-sudo chmod 777 login/login_server
-
-sudo chmod +x game/game_server
-
-sudo chmod 777 game/game_server
-
-then also give same permission to file 1 2 3
-
-sudo chmod +x 1 && sudo chmod 777 1
-
-sudo chmod +x 2 && sudo chmod 777 2
-
-sudo chmod +x 3 && sudo chmod 777 3
 
 then
 
 sudo dpkg -i *.deb
 
-don't forget to put your game_server.evp in game folder i cant upload coz github dont support file larger then 25.MB
 
-DOWNLOAD game_server.evp > https://mirrorace.com/m/1r7wh
+
+
+
+UNRAR EVP ( DISABLE ANTIVIRUS  >> ITS DETECTED LIKE VIRUS)
+IN CASE IF YOU RECIVED A ERROR IN CHINESE CLOSE THE ERROR RUN >> Run.exe
+AFTER OPEN AGAIN EvpTool.exe
+
+
+
+AND FOLLOW THE video :
+
+
+
+coming soon
+
 
 and the last step to start server
 
