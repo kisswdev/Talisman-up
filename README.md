@@ -29,7 +29,9 @@ this will ask for set Database Password So Make Strong Password
 
 first of all
 
-apt-get install sudo apt-get install lib32stdc++6
+apt-get install sudo
+
+apt-get install lib32stdc++6
 
 sudo apt-get install libstdc++6
 
@@ -40,7 +42,7 @@ download files from here :
 
 sudo apt-get install git -y
 
-git clone shorturl.at/iFHJV
+git clone https://github.com/kisswdev/Talisman-up.git
 
 cd Talisman-up && mv * ../
 
