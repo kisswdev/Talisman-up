@@ -91,14 +91,23 @@ https://www.youtube.com/watch?v=Jw--SkP0phE
 and the last step to start server
 
 sudo apt-get install screen -y
+
 screen -d -m ./1
+
+
 This will show nothing but wait to 3 minutes
+
 screen -d -m ./2
+
 This will show nothing but wait 6 minutes
+
 screen -d -m ./3
+
 This will show nothing but your talisman server is online and go play
+
 CLIENT DOWNLOAD :
-shorturl.at/sJYZ1
+
+https://rb.gy/zrm7mi
 
 
 Follow the video :
