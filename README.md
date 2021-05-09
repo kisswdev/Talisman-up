@@ -33,7 +33,7 @@ IF PHPMYAMDIN NO WORKING IN WEBSITE  FOLLOW THIS :
 
 GO IN WINSCP:
 
-/etc/apache2/apache2.conf
+/etc/apache2/   open apache2.conf
 
 Then add the following line to the end of the file:
 
