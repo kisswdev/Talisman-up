@@ -1,11 +1,16 @@
 # Talisman-up
+
 Talisman - server files by kIsSwdev
+
 Talisman online clean server files
 
 
 And download ssh secure shell (this supprt file transfer too ) from SSH Secure Shell Client:
+
 winscp: shorturl.at/tMNX4
+
 Putty : shorturl.at/sxBDW
+
 Get Ubuntu 14.04 32 bit then follw this instructions ( TESTED BY ME WORKING )
 
 Get Ubuntu 14.04 64 bit then follw this instructions ( TESTED BY ME WORKING )
