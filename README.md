@@ -7,20 +7,30 @@ And download ssh secure shell (this supprt file transfer too ) from SSH Secure S
 winscp: shorturl.at/tMNX4
 Putty : shorturl.at/sxBDW
 Get Ubuntu 14.04 32 bit then follw this instructions ( TESTED BY ME WORKING )
+
 Get Ubuntu 14.04 64 bit then follw this instructions ( TESTED BY ME WORKING )
+
 Get Ubuntu 16.04 64 bit then follw this instructions ( TESTED BY ME WORKING )
+
 Get Ubuntu 18.04 64 bit then follw this instructions ( NOT TESTED )
+
 Here you get details to connect your vps details ip and password so use secure shell to connect vps using ip username is root and password
 
 
 sudo apt-get update
+
+
 sudo apt-get install lamp-server^ -y
+
 sudo apt-get install phpmyadmin -y
 
+
 this will ask for set Database Password So Make Strong Password
+
 first of all
 
 apt-get install sudo apt-get install lib32stdc++6
+
 sudo apt-get install libstdc++6
 
 sudo get-install 
@@ -39,7 +49,9 @@ Open WINSCP EDIT FILES:
 directory /root
 
 Open All.INI files from all folders and replace 192.168.52.128 this ip to your ip
+
 then open db folder and file name db_server_user.ini and replace 22021982 to your sql database password
+
 cd
 
 then give execute permission to
@@ -49,9 +61,11 @@ chmod -R 777 /root/*
 then
 
 sudo dpkg -i *.deb
+
 UNRAR EVP ( DISABLE ANTIVIRUS >> ITS DETECTED LIKE VIRUS) IN CASE IF YOU RECIVED A ERROR IN CHINESE CLOSE THE ERROR RUN >> Run.exe AFTER OPEN AGAIN EvpTool.exe
 AND FOLLOW THE video :
-shorturl.at/ayDLW
+
+https://www.youtube.com/watch?v=Jw--SkP0phE
 
 
 and the last step to start server
