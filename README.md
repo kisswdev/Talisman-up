@@ -29,6 +29,19 @@ sudo apt-get install lamp-server^ -y
 
 sudo apt-get install phpmyadmin -y
 
+IF PHPMYAMDIN NO WORKING IN WEBSITE  FOLLOW THIS :
+
+GO IN WINSCP:
+
+Then add the following line to the end of the file:
+
+Include /etc/phpmyadmin/apache.conf
+
+Then restart apache:
+
+/etc/init.d/apache2 restart
+
+
 
 this will ask for set Database Password So Make Strong Password
 
